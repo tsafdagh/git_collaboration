@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        Toast.makeText(this,"je suis entrain de creer un conflit",Toast.LENGTH_LONG).show()
         id_activity_cedrick.setOnClickListener {
             startActivity(Intent(this, CredickActivity::class.java))
         }
